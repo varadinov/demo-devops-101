@@ -8,6 +8,7 @@ if "tasks" not in st.session_state:
 # Task status options
 status_options = ["New", "In Progress", "Completed"]
 
+
 # Function to add a new task
 def add_task(name: str, description: str, due_date: datetime):
     task = {
