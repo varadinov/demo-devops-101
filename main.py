@@ -14,7 +14,8 @@ def add_task(name: str, description: str, due_date: datetime):
         "name": name,
         "description": description,
         "due_date": due_date,
-        "status": "New",    }
+        "status": "New",
+    }
     st.session_state.tasks.append(task)
 
 
